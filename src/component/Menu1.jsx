@@ -67,7 +67,7 @@ const Menu1 = () => {
 
   const buttonStyles = {
     padding: '5px 40px ',
-    backgroundColor: '#a1c8e5',
+    backgroundColor: '#f7f3e1',
     color: 'black',
     cursor: 'pointer',
     border: '2px solid black',

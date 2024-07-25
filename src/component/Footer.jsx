@@ -24,17 +24,17 @@ const Footer = () => {
   };
 
   const footerStyles = {
-    backgroundColor: '#1c5eac',
-    color: 'white',
+    backgroundColor: 'transparent',
+    color: 'black',
     padding: '0px',
     textAlign: 'center',
-    boxShadow: '5px 5px 5px 15px #1c5eac', 
+    boxShadow: '5px 5px 5px 15px transparent', 
   };
 
   const buttonStyles = {
     padding: '6px',
     backgroundColor: 'transparent',
-    color: 'white',
+    color: 'black',
     borderRadius: '5px',
     cursor: 'pointer',
     border: 'none',

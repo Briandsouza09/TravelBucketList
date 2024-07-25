@@ -4,14 +4,17 @@ import Menu1 from './Menu1';
 import Footer from './Footer';
 import Header from './Header';
 import Socialm from './Socialm';
-
+import homeImage from './pngegg1.png';
 
 
 const Bckgrd = {
-  backgroundImage: `url(https://wallpapers.com/images/hd/travel-wallpaper-17lfxx5ndtmfd75b.jpg)`,
-  backgroundSize: 'cover',
+  backgroundImage: `url(${homeImage})`,
+  backgroundSize: 'contain', // Adjusts the image size to fit within the container
+  backgroundPosition: '60% center', // Centers the image
   backgroundRepeat: 'no-repeat',
   padding: '0px',
+  height: '90vh', // Optional: adjust based on your needs
+  width: '100%', // Optional: adjust based on your needs
 };
 
 const containerStyles = {
